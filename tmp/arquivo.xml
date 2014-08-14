@@ -1,0 +1,8 @@
+<log>
+<time>2014-08-14 12:48:41</time>
+<message>Inserindo registro de Albert Eintein</message>
+</log>
+<log>
+<time>2014-08-14 12:48:41</time>
+<message>INSERT INTO livros (id, nome, autor)values (4, 'Fisica basica', 'Albert luiz')</message>
+</log>
