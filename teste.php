@@ -13,9 +13,9 @@ try{
 
 	$sql = new TSqlInsert();
 	$sql->setEntity('livros');
-	$sql->setRowData('id', 3);
-	$sql->setRowData('nome', 'Programando com PHP 2');
-	$sql->setRowData('autor', 'Maickon Rangel');
+	$sql->setRowData('id', 5);
+	$sql->setRowData('nome', 'OpenGl');
+	$sql->setRowData('autor', 'Steve Woz');
 
 	$conn = TTransaction::get();
 	$resul = $conn->query($sql->getInstruction());
@@ -28,9 +28,9 @@ try{
 
 	$sql = new TSqlInsert();
 	$sql->setEntity('livros');
-	$sql->setRowData('id', 4);
-	$sql->setRowData('nome', 'Fisica basica');
-	$sql->setRowData('autor', 'Albert luiz');
+	$sql->setRowData('id', 6);
+	$sql->setRowData('nome', 'Criando a Apple');
+	$sql->setRowData('autor', 'Steve Jobs');
 
 	$conn = TTransaction::get();
 	$resul = $conn->query($sql->getInstruction());

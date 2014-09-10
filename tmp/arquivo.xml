@@ -1,8 +1,8 @@
 <log>
-<time>2014-08-14 12:48:41</time>
+<time>2014-09-08 22:00:22</time>
 <message>Inserindo registro de Albert Eintein</message>
 </log>
 <log>
-<time>2014-08-14 12:48:41</time>
-<message>INSERT INTO livros (id, nome, autor)values (4, 'Fisica basica', 'Albert luiz')</message>
+<time>2014-09-08 22:00:22</time>
+<message>INSERT INTO livros (id, nome, autor)values (6, 'Criando a Apple', 'Steve Jobs')</message>
 </log>
